@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [weberowsky.github.io](https://weberowsky.github.io/Interactive-Rating-Component/m)
+- Live Site URL: [weberowsky.github.io](https://weberowsky.github.io/Interactive-Rating-Component/)
 
 ### Built with
 
