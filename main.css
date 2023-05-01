@@ -25,14 +25,17 @@ h1 {
   font-weight: 400;
 }
 h2 {
-    color: var(--orange);
-    font-size: 16px;
-    font-weight: 400;
+  color: var(--orange);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 15px 5px 15px;
+  background-color: #262f38;
+  border-radius: 90px;
+  margin-top: 30px;
 }
 span {
   color: var(--mediumGrey);
   line-height: 20px;
-
 }
 
 #customer-feedback-text {
@@ -79,12 +82,13 @@ html {
   display: flex;
   margin-left: 25px;
 }
-#customer-feedback, #thank-you {
+#customer-feedback,
+#thank-you {
   background-color: var(--darkBlue);
   display: flex;
   flex-direction: column;
-  height: 415px;
-  width: 410px;
+  height: 50vh;
+  width: 32.5vw;
   justify-content: space-evenly;
   border-radius: 25px;
   align-items: flex-start;
