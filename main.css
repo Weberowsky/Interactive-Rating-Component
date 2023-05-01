@@ -18,7 +18,7 @@
 #icon svg {
   margin: 15px;
 }
-#customer-feedback h1 {
+h1 {
   color: var(--white);
   margin-bottom: 15px;
   font-size: 1.65em;
@@ -89,6 +89,12 @@ html {
   border-radius: 25px;
   align-items: flex-start;
 }
+
+#thank-you {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
 #submit {
   background-color: var(--orange);
   color: var(--white);
