@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [frontendmentor.io/solutions](https://www.frontendmentor.io/solutions/interactive-rating-component-S6jRp6X3s6)
 - Live Site URL: [weberowsky.github.io](https://weberowsky.github.io/Interactive-Rating-Component/)
 
 ### Built with
