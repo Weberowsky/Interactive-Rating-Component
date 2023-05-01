@@ -70,11 +70,11 @@ html {
 .button-container button:hover,
 .button-selected:hover {
   cursor: pointer;
-  background-color: var(--orange);
+  background-color: var(--lightGrey);
   color: var(--white);
 }
 .button-selected {
-  background-color: var(--lightGrey) !important;
+  background-color:  var(--orange) !important;
   color: white !important;
 }
 .button-container {
