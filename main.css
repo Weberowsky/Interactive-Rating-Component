@@ -6,6 +6,7 @@
   --darkBlue: #19212c;
   --veryDarkBlue: hsl(216, 12%, 8%);
   --orange: hsl(25, 97%, 53%);
+  --darkBlueGradient: linear-gradient(180deg, #19212c 0%, #11171f 100%);
 }
 #icon {
   background-color: #272e38;
@@ -39,8 +40,8 @@ span {
 }
 
 #customer-feedback-text {
-  margin-left: 25px;
   max-width: 340px;
+  margin: 0 auto; /* Center the element */
 }
 body,
 html {
@@ -49,12 +50,13 @@ html {
   font-size: 15px;
   margin: 0;
   padding: 0;
-  min-height: 100vh;
-  min-width: 100vw;
+  min-height: 100%;
+  min-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .button-container button,
 .button-selected {
   border-radius: 90px;
@@ -62,7 +64,7 @@ html {
   height: 50px;
   width: 50px;
   background-color: #272e38;
-  color: var(--mediumGrey);
+  color: rgb(214, 214, 214);
   font-size: 15px;
   font-weight: 400;
 }
@@ -80,18 +82,20 @@ html {
 .button-container {
   gap: 20px;
   display: flex;
-  margin-left: 25px;
+  margin: 0 auto; /* Center the element */
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 #customer-feedback,
 #thank-you {
-  background-color: var(--darkBlue);
+  background: var(--darkBlueGradient);
   display: flex;
   flex-direction: column;
-  height: 50vh;
-  width: 32.5vw;
   justify-content: space-evenly;
   border-radius: 25px;
   align-items: flex-start;
+  padding: 3%; 
+  box-sizing: border-box; /* Add this line to include padding in the element's total width and height */
 }
 
 #thank-you {
@@ -101,14 +105,16 @@ html {
 
 #submit {
   background-color: var(--orange);
-  color: var(--white);
+  color: black;
   border: none;
   border-radius: 90px;
-  width: 340px;
-  height: 50px;
+  width: 100%;
+  max-width: 340px;
+  height: 45px;
   font-weight: 700;
   letter-spacing: 2.5px;
-  margin-left: 25px;
+  margin: 0 auto; /* Center the element */
+  margin-top: 5%;
 }
 
 #submit:hover {
